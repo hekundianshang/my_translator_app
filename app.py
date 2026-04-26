@@ -43,7 +43,7 @@ with col2:
     output_text = ""
     if st.button("开始翻译", type="primary") and input_text:
         with st.spinner("正在翻译中..."):
-try:
+    try:
 result = translator.translate(input_text)
 output_text = result
     st.success ("翻译完成！")
