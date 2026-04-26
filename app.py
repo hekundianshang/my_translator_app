@@ -45,7 +45,7 @@ with col2:
         with st.spinner("正在翻译中..."):
             try:
               result = translator.translate(input_text)
-                output_text = result
+            output_text = result
                 st.success("翻译完成！")
             except Exception as e:
                 st.error(f"翻译出错，请重试。错误信息: {e}")
