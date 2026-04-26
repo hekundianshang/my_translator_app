@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # 初始化翻译器实例
-translator = GoogleTranslator (source='auto', target='ru)
+translator = GoogleTranslator (source='auto', target='ru')
 
 # 将语言字典转换为列表，用于下拉菜单选择
 
