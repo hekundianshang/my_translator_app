@@ -44,4 +44,4 @@ if uploaded_imgs:
                 st.warning(f"第{idx}张图未识别到有效中文")
         st.markdown("---")
 
-st.markdown("<div style='text-align:center; color:#666;'>支持批量上传 | 自动识别中文并生成俄文商品文案</div>", unsafe_allow
+st.markdown ("<div style='text-align:center; color:#666;'>支持批量上传 | 自动识别中文并生成俄文商品文案</div>", unsafe_allow_html=True)
