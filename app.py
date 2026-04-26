@@ -6,7 +6,7 @@ from deep_translator import GoogleTranslator
 st.set_page_config(
     page_title="专属免费翻译工具",
     page_icon="🌐",
-   translator = GoogleTranslator (source='auto', target='ru)
+  translator = GoogleTranslator (source='auto', target='ru')
 )
 
 # 初始化翻译器实例
